@@ -122,7 +122,7 @@ Item {
    * - ...
    */
   WebSocket {
-    property string serverUrl: "ws://janus1.cosmosoftware.io:8188"
+    property string serverUrl: "wss://janusqt.cosmosoftware.io"
     id:                        janusWebSocketWrapper
     url:                       serverUrl
     active:                    false
